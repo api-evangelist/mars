@@ -1,17 +1,53 @@
 aid: mars
-url: https://raw.githubusercontent.com/api-evangelist/mars/refs/heads/main/apis.yml
 name: Mars
-type: Index
+description: >-
+  Mars, Incorporated is one of the world's largest privately held companies,
+  producing confectionery, pet food, food, and providing veterinary care. The
+  company owns iconic brands including M&M's, Snickers, Twix, Milky Way, Skittles,
+  Wrigley, Orbit, Extra, Pedigree, Whiskas, Royal Canin, IAMS, and Sheba, and
+  operates Mars Petcare clinical brands including Banfield Pet Hospital, VCA
+  Animal Hospitals, BluePearl, and Antech Diagnostics. Mars operates in over 80
+  countries. Mars does not currently publish a public developer API or developer
+  portal; business integrations are handled through closed channels (e.g., the
+  Mars Supplier Gateway).
+kind: company
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Food & Beverage
-  - Consumer Products
+  - Confectionery
+  - Consumer Packaged Goods
+  - Food
+  - Pet Care
   - Pet Food
-description: 'One of the world''s largest privately held companies producing confectionery, pet food, and food products. Owns iconic brands including M&M''s, Snickers, Pedigree, Royal Canin, and Uncle Ben''s with operations in over 80 countries.'
+  - Veterinary
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/mars/refs/heads/main/apis.yml
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.mars.com/
+  - type: AboutUs
+    url: https://www.mars.com/about
+  - type: Brands
+    url: https://www.mars.com/made-by-mars
+  - type: News
+    url: https://www.mars.com/news-and-stories
+  - type: Sustainability
+    url: https://www.mars.com/sustainability-plan
+  - type: Careers
+    url: https://www.mars.com/careers
+  - type: SupplierGateway
+    url: https://www.mars.com/suppliers
+  - type: PetCare
+    url: https://www.marspetcare.com/
+  - type: RoyalCanin
+    url: https://www.royalcanin.com/
+  - type: Banfield
+    url: https://www.banfield.com/
+  - type: VCAAnimalHospitals
+    url: https://vcahospitals.com/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
