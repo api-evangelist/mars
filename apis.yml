@@ -23,8 +23,33 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/mars/refs/heads/main/apis.yml
 created: '2026-05-05'
 modified: '2026-05-16'
-specificationVersion: '0.19'
-apis: []
+specificationVersion: '0.20'
+apis:
+  - aid: mars:developer-portal
+    name: Mars Developer Portal
+    description: >-
+      Mars exposes a public Azure-API-Management developer portal at
+      developer.mars.com that hosts APIs and API Products for partners,
+      suppliers, and B2B integrations. The catalog itself sits behind a
+      registration / sign-in flow; consumers subscribe to one or more API
+      Products to receive subscription keys for use against the gateway.
+      Specific API names and endpoint surfaces are not publicly enumerated
+      and require partner onboarding to discover in full.
+    humanURL: https://developer.mars.com/
+    tags:
+      - B2B Integration
+      - Partner APIs
+      - Supplier APIs
+      - Azure API Management
+    properties:
+      - type: Portal
+        url: https://developer.mars.com/
+      - type: APIsCatalog
+        url: https://developer.mars.com/apis
+      - type: APIProducts
+        url: https://developer.mars.com/products
+      - type: SignIn
+        url: https://developer.mars.com/signin
 common:
   - type: LinkedIn
     url: https://www.linkedin.com/company/mars
