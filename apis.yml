@@ -7,9 +7,9 @@ description: >-
   Wrigley, Orbit, Extra, Pedigree, Whiskas, Royal Canin, IAMS, and Sheba, and
   operates Mars Petcare clinical brands including Banfield Pet Hospital, VCA
   Animal Hospitals, BluePearl, and Antech Diagnostics. Mars operates in over 80
-  countries. Mars does not currently publish a public developer API or developer
-  portal; business integrations are handled through closed channels (e.g., the
-  Mars Supplier Gateway).
+  countries. Mars operates a public Azure-API-Management developer portal at
+  developer.mars.com for partner and B2B integrations, alongside closed channels
+  such as the Mars Supplier Gateway.
 kind: company
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
@@ -50,6 +50,9 @@ common:
     url: https://www.banfield.com/
   - type: VCAAnimalHospitals
     url: https://vcahospitals.com/
+  - type: DeveloperPortal
+    url: https://developer.mars.com/
+    description: Public developer portal (verified live 2026-05-22)
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
