@@ -48,7 +48,7 @@ apis:
         url: https://developer.mars.com/apis
       - type: APIProducts
         url: https://developer.mars.com/products
-      - type: SignIn
+      - type: Login
         url: https://developer.mars.com/signin
 common:
   - type: LinkedIn
