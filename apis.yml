@@ -51,6 +51,8 @@ apis:
       - type: Login
         url: https://developer.mars.com/signin
 common:
+  - type: DomainSecurity
+    url: security/mars-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/mars
   - type: Website
@@ -78,6 +80,8 @@ common:
   - type: DeveloperPortal
     url: https://developer.mars.com/
     description: Public developer portal (verified live 2026-05-22)
+  - url: https://www.mars.com/news-and-stories
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
