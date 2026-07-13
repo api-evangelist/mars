@@ -1,0 +1,14 @@
+{
+  "repo": "mars",
+  "feeds": [
+    {
+      "source": "https://www.mars.com/news-and-stories",
+      "feed_url": "https://www.mars.com/news-and-stories/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 5
+}
