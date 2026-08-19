@@ -35,7 +35,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/mars/refs/heads/main/apis.yml
 created: '2026-05-05'
 modified: '2026-05-16'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 apis:
   - aid: mars:developer-portal
     name: Mars Developer Portal
