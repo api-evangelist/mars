@@ -61,6 +61,11 @@ apis:
     humanURL: https://developer.mars.com/
     tags:
       - B2B Integration
+      - Partner API
+      - Supplier APIs
+      - Azure API Management
+    tags_raw:
+      - B2B Integration
       - Partner APIs
       - Supplier APIs
       - Azure API Management
